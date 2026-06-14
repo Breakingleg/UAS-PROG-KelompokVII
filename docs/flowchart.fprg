@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value="Sistem Analitik Kampus"/>
+        <attribute name="authors" value="Mas Iqbal"/>
+        <attribute name="about" value="Flowchart Sustainability Kampus UNESA"/>
+        <attribute name="saved" value="2026-06-14 02:23:34 PM"/>
+        <attribute name="created" value="2026-06-14 02:00:00 PM"/>
+        <attribute name="edited" value="2026-06-14 02:00:00 PM"/>
+        <attribute name="edited" value="Z3VzdGk7REVTS1RPUC02RFJSUk9MOzIwMjYtMDYtMTQ7MDI6MjM6MzQgUE07MTszMDQ5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="namaFileIn, namaFileOut, tahap" type="String" array="False" size=""/>
+            <declare name="jumlahRecord" type="Integer" array="False" size=""/>
+            <assign variable="namaFileIn" expression="&quot;../dataset/sustainability_data.csv&quot;"/>
+            <assign variable="namaFileOut" expression="&quot;../output/laporan_sustainability.txt&quot;"/>
+            <assign variable="jumlahRecord" expression="0"/>
+            <while expression="jumlahRecord &lt; 29200">
+                <assign variable="tahap" expression="&quot;Membaca baris data sensor dari CSV&quot;"/>
+                <assign variable="jumlahRecord" expression="jumlahRecord + 1"/>
+            </while>
+            <assign variable="tahap" expression="&quot;Hitung Rata-rata, Minimum, dan Maksimum&quot;"/>
+            <assign variable="tahap" expression="&quot;Cari Gedung dengan Nilai Tertinggi&quot;"/>
+            <assign variable="tahap" expression="&quot;Hitung Skor Normalisasi (0-100%)&quot;"/>
+            <assign variable="tahap" expression="&quot;Klasifikasi Status: Green, Warning, Critical&quot;"/>
+            <assign variable="tahap" expression="&quot;Simpan Laporan ke File TXT&quot;"/>
+        </body>
+    </function>
+</flowgorithm>

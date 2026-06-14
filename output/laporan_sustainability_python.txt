@@ -1,0 +1,89 @@
+=================================================================
+   SISTEM ANALITIK SUSTAINABILITY KAMPUS UNESA
+   [ >>> OUTPUT VERSI PYTHON <<< ]
+   Dibuat pada: 2026-06-14 13:47:33
+=================================================================
+
+[ RINGKASAN DATA ]
+----------------------------------------
+  Jumlah Record    : 29,200
+  Jumlah Gedung    : 20
+  Jumlah Parameter : 4
+  Periode          : 2025-01-01 s.d. 2025-12-31
+  Daftar Gedung    : Gedung_A, Gedung_B, Gedung_C, Gedung_D, Gedung_E, Gedung_F, Gedung_G, Gedung_H, Gedung_I, Gedung_J, Gedung_K, Gedung_L, Gedung_M, Gedung_N, Gedung_O, Gedung_P, Gedung_Q, Gedung_R, Gedung_S, Gedung_T
+  Daftar Parameter : CO2, Energy, Waste, Water
+
+[ ANALISIS STATISTIK PER PARAMETER ]
+----------------------------------------
+  Energy (kWh)
+    Rata-rata : 164.85
+    Maksimum  : 249.98
+    Minimum   : 80.01
+    Total     : 1,203,439.35
+
+  Water (L)
+    Rata-rata : 704.01
+    Maksimum  : 1199.71
+    Minimum   : 200.04
+    Total     : 5,139,289.27
+
+  CO2 (ppm)
+    Rata-rata : 624.41
+    Maksimum  : 899.94
+    Minimum   : 350.01
+    Total     : 4,558,225.22
+
+  Waste (kg)
+    Rata-rata : 32.31
+    Maksimum  : 59.99
+    Minimum   : 5.03
+    Total     : 235,889.56
+
+[ ANALISIS KAMPUS – GEDUNG TERTINGGI ]
+----------------------------------------
+  Konsumsi Energi Tertinggi
+    Gedung : Gedung_O
+    Total  : 62,629.00 kWh
+
+  Penggunaan Air Tertinggi
+    Gedung : Gedung_O
+    Total  : 265,906.25 L
+
+  Emisi CO₂ Tertinggi
+    Gedung : Gedung_E
+    Total  : 233,090.44 ppm
+
+  Produksi Sampah Tertinggi
+    Gedung : Gedung_A
+    Total  : 12,496.18 kg
+
+
+[ SUSTAINABILITY RATING PER GEDUNG ]
+  Skala: 0-40% = Green | 40-70% = Warning | >70% = Critical
+-----------------------------------------------------------------
+  Gedung         Skor (%)  Kategori            
+  ---------------------------------------------
+  Gedung_A         60.75%  [ WARNING ]
+  Gedung_B         41.54%  [ WARNING ]
+  Gedung_C         21.49%  [ GREEN ]
+  Gedung_D         27.38%  [ GREEN ]
+  Gedung_E         42.82%  [ WARNING ]
+  Gedung_F         50.34%  [ WARNING ]
+  Gedung_G         21.52%  [ GREEN ]
+  Gedung_H         38.57%  [ GREEN ]
+  Gedung_I         51.00%  [ WARNING ]
+  Gedung_J         26.96%  [ GREEN ]
+  Gedung_K         47.02%  [ WARNING ]
+  Gedung_L         41.40%  [ WARNING ]
+  Gedung_M         48.24%  [ WARNING ]
+  Gedung_N         43.55%  [ WARNING ]
+  Gedung_O         73.73%  [ CRITICAL ]
+  Gedung_P         49.85%  [ WARNING ]
+  Gedung_Q         44.51%  [ WARNING ]
+  Gedung_R         50.08%  [ WARNING ]
+  Gedung_S         47.04%  [ WARNING ]
+  Gedung_T         41.71%  [ WARNING ]
+
+=================================================================
+  Analisis selesai.
+=================================================================

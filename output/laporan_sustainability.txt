@@ -1,0 +1,68 @@
+=================================================================
+   SISTEM ANALITIK SUSTAINABILITY KAMPUS UNESA
+=================================================================
+
+[ RINGKASAN DATA ]
+----------------------------------------
+  Jumlah Record    : 29200
+  Jumlah Gedung    : 20
+  Jumlah Parameter : 4
+
+[ ANALISIS STATISTIK PER PARAMETER ]
+----------------------------------------
+  CO2
+ Rata-rata : 624.414414
+ Maksimum  : 899.940000
+ Minimum   : 350.010000
+
+  Energy
+ Rata-rata : 164.854705
+ Maksimum  : 249.980000
+ Minimum   : 80.010000
+
+  Waste
+ Rata-rata : 32.313638
+ Maksimum  : 59.990000
+ Minimum   : 5.030000
+
+  Water
+ Rata-rata : 704.012229
+ Maksimum  : 1199.710000
+ Minimum   : 200.040000
+
+[ ANALISIS KAMPUS - GEDUNG TERTINGGI ]
+----------------------------------------
+  Tertinggi CO2 : Gedung_E (233090.440000)
+
+  Tertinggi Energy : Gedung_O (62629.000000)
+
+  Tertinggi Waste : Gedung_A (12496.180000)
+
+  Tertinggi Water : Gedung_O (265906.250000)
+
+[ SUSTAINABILITY RATING PER GEDUNG ]
+  Skala: 0-40% = Green | 40-70% = Warning | >70% = Critical
+---------------------------------------------------------
+  Gedung_A       60.75%   [ WARNING ]
+  Gedung_B       41.54%   [ WARNING ]
+  Gedung_C       21.49%   [ GREEN ]
+  Gedung_D       27.38%   [ GREEN ]
+  Gedung_E       42.82%   [ WARNING ]
+  Gedung_F       50.34%   [ WARNING ]
+  Gedung_G       21.52%   [ GREEN ]
+  Gedung_H       38.57%   [ GREEN ]
+  Gedung_I       51.00%   [ WARNING ]
+  Gedung_J       26.96%   [ GREEN ]
+  Gedung_K       47.02%   [ WARNING ]
+  Gedung_L       41.40%   [ WARNING ]
+  Gedung_M       48.24%   [ WARNING ]
+  Gedung_N       43.55%   [ WARNING ]
+  Gedung_O       73.73%   [ CRITICAL ]
+  Gedung_P       49.85%   [ WARNING ]
+  Gedung_Q       44.51%   [ WARNING ]
+  Gedung_R       50.08%   [ WARNING ]
+  Gedung_S       47.04%   [ WARNING ]
+  Gedung_T       41.71%   [ WARNING ]
+
+=================================================================
+ Analisis selesai. Hasil disimpan di ../output/laporan_sustainability.txt
