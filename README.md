@@ -50,6 +50,6 @@ Struktur Data: Python sangat fleksibel dengan tipe data dinamis. Sebaliknya, C++
 Performa Eksekusi: Sebagai bahasa compiled, C++ terasa lebih cepat dan ringan memori saat melakukan perulangan pada 29.200 baris data dibandingkan Python yang merupakan bahasa interpreted.
 
 Link Video Presentasi
-
+https://youtu.be/bky7A9-7dRI?si=RS_eJfvcWOZh-adD
 
 
