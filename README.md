@@ -1,10 +1,10 @@
 # UAS-ALPROG-Kelompok
 
 ## Anggota Kelompok
-1.
-2.
-3. Mas Iqbal Gusti Mahardhika - 25050874148
-4.
+1. Abiyu Nandana - 25050874213 
+2. Mas Iqbal Gusti Mahardhika - 25050874148
+3. Muhammad Akbar Ferdiansyah - 25050874123
+4. Zhulumanus Ghulammanar - 25050874127
 
 ## Deskripsi Proyek
 Analisis Smart Sustainability Campus menggunakan C++ dan Python untuk memantau emisi CO₂, konsumsi energi, produksi sampah, dan penggunaan air di 20 gedung kampus. Sistem ini mengolah 29.200 baris data sensor (periode satu tahun) untuk memberikan *Sustainability Rating* tiap gedung dengan klasifikasi Green (0-40%), Warning (40-70%), dan Critical (>70%). Laporan ini bertujuan membantu pimpinan kampus mengambil keputusan operasional berbasis data yang ramah lingkungan.
