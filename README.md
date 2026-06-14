@@ -18,17 +18,17 @@ Analisis Smart Sustainability Campus menggunakan C++ dan Python untuk memantau e
 
 ## Cara Menjalankan Program
 
-### C++
+C++
 Pastikan posisi terminal berada di dalam folder `cpp/`, lalu jalankan:
 
-```Bash
-## g++ main.cpp -o main
-./main       # (Atau gunakan .\main.exe jika di Windows)
+Bash
+ g++ main.cpp -o main
+/main       # (Atau gunakan .\main.exe jika di Windows)
 
-## Python
+Python
 Pastikan posisi terminal berada di dalam folder python/, lalu jalankan:
 
-```Bash
+Bash
 python main.py
 
 ## Ringkasan Hasil Analisis
